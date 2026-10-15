@@ -13,7 +13,7 @@ st.set_page_config(
 # Load the saved model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(
-    BASE_DIR, "models", "reviewlens_model.joblib"
+    BASE_DIR, "reviewlens_model.joblib"
 )
 
 @st.cache_resource
